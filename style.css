@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #e5e5fd;
+    min-height: 100vh;
+    border: 10px solid #1d1e4c;
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: flex-end;
+
+}
+
+.image img {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 300px;
+    height: 320px;
+}
+
+.top h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #1d1e4c;
+    text-transform: uppercase;
+    
+}
+
+.top h4 {
+    font-size: 30px;
+    text-align: end;
+}
+
+.about_king {
+    line-height: 30px;
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: justify;
+    letter-spacing: 1.2px;
+
+}
+
+.about_king p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.awards h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.awards {
+    margin: 50px 0;
+}
+
+
+.awards ul {
+    margin-left: 50px;
+}
+
+.awards li {
+    margin-bottom: 15px;
+    font-size: 25px;
+}
